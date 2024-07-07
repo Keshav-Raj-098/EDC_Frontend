@@ -5,24 +5,27 @@ import react from  "../../assets/react.svg"
 import  db from  "../../assets/Mongo.svg"
 import node from  "../../assets/nodejs.svg"
 import git from  "../../assets/git.svg"
+import "./project1.css"
 
 const Card = ({img,title,img1,title1,mode})=>(
 
-  <div className='flex flex-col justify-left p-0 mt-2 lg:flex-row'
+  <div className='flex flex-col justify-left p-0 mt-2 g-5 lg:flex-row'
   style={{ color: mode === "dark" ? "#9ea1a4" : "black"}}
   >
 
 
 
 
-    <div className='flex flex-col gap-6 w-full p-3 rounded-xl m-2 lg:w-1/2 sm:flex-row' 
+    <div className='project flex flex-col gap-6 w-full p-3 rounded-xl m-2 lg:w-1/2 sm:flex-row' 
     style={{boxShadow:"black 0px 0px 16px 1px",
       border: mode === "dark" ? "1px solid" : "none"
     }}>
 
       <div className='flex flex-col justify-center align-middle  mb-4' 
       style={{color: "#9ea1a4" }}>
-        <img src={img} alt="" width="50px" style={{alignSelf:"center",fontWeight:"500"}}/>
+        <img src={img} alt="" width="50px" 
+        
+        style={{alignSelf:"center",fontWeight:"500"}}/>
         <span >{title}</span>
       </div>
 
@@ -30,7 +33,7 @@ const Card = ({img,title,img1,title1,mode})=>(
 
 
 
-    <div className='flex flex-col gap-6 w-full p-3 rounded-xl m-2 lg:w-1/2 sm:flex-row' 
+    <div className='project flex flex-col gap-6 w-full p-3 rounded-xl m-2 lg:w-1/2 sm:flex-row' 
     style={{boxShadow:"black 0px 0px 16px 1px",
       border: mode === "dark" ? "1px solid" : "none"
     }}>

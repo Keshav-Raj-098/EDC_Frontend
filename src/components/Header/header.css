@@ -1,0 +1,40 @@
+@keyframes status {
+
+      0%{  box-shadow:#16a34a 0px 0px 2px 0px;}
+      25%{  box-shadow:#16a34a 0px 0px 5px 1px;}
+      50%{  box-shadow:#16a34a 0px 0px 10px 2px;}
+      75%{  box-shadow:#16a34a 0px 0px 5px 1px;}
+      100%{  box-shadow:#16a34a 0px 0px 2px 0px;}
+    
+}
+
+
+@keyframes rotate3d {
+    from {
+      transform: rotate3d(0, 1, 0, 0deg);}
+    to {transform: rotate3d(0, 1, 0, 360deg);}
+}
+
+
+@keyframes wave {
+
+    0% {
+        transform: rotateZ(35deg);
+        }
+      50% {
+        transform: rotateZ(-25deg);
+      }
+      100%{
+        transform: rotateZ(35deg);
+
+      }
+    
+}
+.Active{animation: status 2s linear 0s infinite;}
+.locate{animation: rotate3d 3s linear infinite;}
+.Hand{
+    animation: wave 3s linear 0s infinite;
+   
+
+    
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./project1.css"
 
 const Button = ({ x }) => {
     return (
@@ -30,9 +31,7 @@ const project1 = ({first,second,desc,title,mode,img}) => {
 
                     <img src={img} alt="project.img" 
                     style={{height:"350px",width:"550px"}}
-                    
-                    
-                    />
+                    className='project'/>
 
 
 

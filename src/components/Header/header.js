@@ -5,6 +5,7 @@ import insta from "../../assets/instagram.svg"
 import linkedien from "../../assets/linkedien.svg"
 import location from "../../assets/location.png"
 import profile from "../../assets/profile.jpg"
+import "./header.css"
 
 
 
@@ -36,20 +37,20 @@ const Header = ({mode}) => {
           
              
              >Hi,I'm Keshav
-                <img src={hand} alt="hand"style={{marginLeft:"7px"}} ></img>
+                <img src={hand} alt="hand"style={{marginLeft:"7px"}} className='Hand' ></img>
             </span>
 
             <div class="mt-3 subtitle w-full flex"
              style={{fontSize:"medium",marginLeft:"-18px",
                  color: mode === "dark" ? "#9ea1a4" : "black"
              }}>
-                i'm a full stack developer(React.js & Node.js) with a focus on creating exceptional digital
+                I'm a full stack developer(React.js & Node.js) with a focus on creating exceptional digital
                 experiences that are fast,accessible,visually appealing, and responsive.Even though i have been
                 creating web applications for 1 year, i still love it as if it was something new.</div>
 
 
             <div class="flex flex-row gap-3 align-middle mt-12">
-                <img src={location} alt="location" width="25px"></img>
+               <img src={location} alt="location" className='locate' width="25px"/>
                 <span class="font-semibold" 
                 style={{fontSize:"15px",    
                 color: mode === "dark" ? "#9ea1a4" : "black"}}>
@@ -61,7 +62,7 @@ const Header = ({mode}) => {
                 <div class="flex flex-row justify-center align-middle py-2"
                 style={{width:"25px"}}>
 
-                    <div class="flex h-2 w-2 rounded-full bg-green-600"></div>
+                    <div class="Active flex h-2 w-2 rounded-full bg-green-600"></div>
                 </div>
                 <span class="font-semibold" style={{fontSize:"15px",  
                       color: mode === "dark" ? "#9ea1a4" : "black"}}>

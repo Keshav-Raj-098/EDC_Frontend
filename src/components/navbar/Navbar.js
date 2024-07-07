@@ -33,7 +33,8 @@ const Navbar = ({setOn,mode,setMode}) => {
          borderLeft:"none",
          borderRight:"none",
         backgroundColor:"transparent",
-        backdropFilter:"blur(10px)"
+        backdropFilter:"blur(10px)",
+        zIndex:"1000"
 
 
       }}>

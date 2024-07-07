@@ -8,7 +8,7 @@ import github from "../assets/github.svg"
 const footer = ({mode}) => {
   return (
    
-    <div className='h-96 w-full px-16 py-5'
+    <div className='h-auto w-full px-16 py-5'
     style={{
       backgroundColor: (mode==="dark"?"#030712" : "#f9fafb")}}
     >
