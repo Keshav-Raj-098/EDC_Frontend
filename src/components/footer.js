@@ -31,7 +31,10 @@ const footer = ({mode}) => {
             >
 
               <img src={mail} alt="mail" /> 
-              <span style={{fontSize:"30px",fontWeight:"bold",marginLeft:"10px"}}>
+              <span 
+              className='text-lg sm:text-xl lg:text-3xl'
+              
+              style={{fontWeight:"bold",marginLeft:"10px"}}>
 
               keshavraj09898@gmail.com
               </span>

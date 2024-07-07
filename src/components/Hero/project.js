@@ -40,7 +40,9 @@ const Project = ({mode}) => {
 
     return (
 
-        <div className="px-16 md:px-24 lg:px-20 pt-5 pb-8" style={{ 
+        <div className="px-24 md:px-24 lg:px-20
+        sm:px-36  pt-5 pb-8" 
+        style={{ 
             backgroundColor: mode === "dark" ? "#111827" : "white" 
         }}>
 

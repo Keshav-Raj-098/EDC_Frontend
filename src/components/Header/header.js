@@ -29,9 +29,10 @@ const Header = ({mode}) => {
         <div>
 
 
-            <span className="title flex flex-row text-white w-full justify-center lg:justify-start"
+            <span className="flex flex-row text-white w-full
+             justify-center lg:justify-start text-3xl lg:text-4xl text-left"
            style={{
-            fontSize: "35px",fontWeight:"bolder",
+            fontWeight:"bolder",
             color: mode === "dark" ? "white" : "black"
           }}
           
@@ -40,7 +41,7 @@ const Header = ({mode}) => {
                 <img src={hand} alt="hand"style={{marginLeft:"7px"}} className='Hand' ></img>
             </span>
 
-            <div class="mt-3 subtitle w-full flex"
+            <div class="mt-3 subtitle w-full flex text-left"
              style={{fontSize:"medium",marginLeft:"-18px",
                  color: mode === "dark" ? "#9ea1a4" : "black"
              }}>

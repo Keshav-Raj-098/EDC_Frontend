@@ -23,15 +23,16 @@ const project1 = ({first,second,desc,title,mode,img}) => {
                 
             {/* left part */}
 
-            <div className='h-full p-8  w-full lg:w-1/2 flex flex-row justify-center align-middle  rounded-t-2xl  lg:rounded-s-2xl lg:rounded-e-none'
+            <div className='h-full p-4 lg:p-8  w-full lg:w-1/2 flex flex-row justify-center align-middle  rounded-t-2xl  lg:rounded-s-2xl lg:rounded-e-none'
               style={{
                
 
                 backgroundColor: mode === "dark" ? "#374151" : "#f9fafb" }}>
 
                     <img src={img} alt="project.img" 
-                    style={{height:"350px",width:"550px"}}
-                    className='project'/>
+                    // style={{height:"350px",width:"550px"}}
+                    className='project w-56 sm:w-64 md:w-96 lg:w-full'
+                    />
 
 
 
@@ -39,7 +40,7 @@ const project1 = ({first,second,desc,title,mode,img}) => {
             </div>
 
             {/* right part */}
-            <div className='w-full p-3 flex flex-col justify-left lg:w-1/2
+            <div className='w-full py-3 px-5 flex flex-col justify-left lg:w-1/2
              rounded-b-2xl lg:rounded-e-2xl lg:rounded-s-none'
             style={{
                 
@@ -55,7 +56,7 @@ const project1 = ({first,second,desc,title,mode,img}) => {
                      }}
                 >{title}</span>
 
-                <div className='my-4' 
+                <div className='my-4 text-sm lg:text-base text-left' 
                  style={{ color: mode === "dark" ? "white" : "black"}}
                 >{desc}</div>
 

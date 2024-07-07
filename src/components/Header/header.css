@@ -33,7 +33,7 @@
 .Active{animation: status 2s linear 0s infinite;}
 .locate{animation: rotate3d 3s linear infinite;}
 .Hand{
-    animation: wave 3s linear 0s infinite;
+    animation: wave 800ms linear 0s 1;
    
 
     

@@ -28,8 +28,13 @@ const Card = ({img,title,img1,title1,mode})=>(
         style={{alignSelf:"center",fontWeight:"500"}}/>
         <span >{title}</span>
       </div>
+          
+          <span className='text-left'>
 
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, ut, molestias at, praesentium blanditiis aperiam dolore ex architecto ullam ipsum iste recusandae veritatis error sapiente cumque beatae? Vel molestias fuga obcaecati quasi. Dolor, incidunt illum? </div>
+      
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, ut, molestias at, praesentium blanditiis aperiam dolore ex architecto ullam ipsum iste recusandae veritatis error sapiente cumque beatae? Vel molestias fuga obcaecati quasi. Dolor, incidunt illum? 
+      </span>
+      </div>
 
 
 
@@ -43,8 +48,12 @@ const Card = ({img,title,img1,title1,mode})=>(
         <img src={img1} alt="" width="50px" style={{alignSelf:"center",fontWeight:"500"}}/>
         <span>{title1}</span>
       </div>
+   <span className='text-left'>
 
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, ut, molestias at, praesentium blanditiis aperiam dolore ex architecto ullam ipsum iste recusandae veritatis error sapiente cumque beatae? Vel molestias fuga obcaecati quasi. Dolor, incidunt illum? </div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, ut, molestias at, praesentium blanditiis aperiam dolore ex architecto ullam ipsum iste recusandae veritatis error sapiente cumque beatae? Vel molestias fuga obcaecati quasi. Dolor, incidunt illum? 
+      
+   </span>
+      </div>
       
       
       
