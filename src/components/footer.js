@@ -61,9 +61,9 @@ const footer = ({mode}) => {
                 <div class="flex flex-row align- justify-center gap-2 mt-2">
                 <a href="https://github.com/Keshav-Raj-098"> 
                     <img src={github} alt="git" width="25px"  ></img></a>
-                <a href="">
+                <a href="http://www.linkedin.com/in/keshav-raj-118a74248">
                      <img src={linkedien} alt="link"width="25px"  ></img></a>
-                <a href="">
+                <a href="https://www.instagram.com/keshav_yadaav_0405?utm_source=qr&igsh=ZTZwem53d2tzMXlr">
                      <img src={insta} alt="insta" width="25px"  ></img></a>
                
                     </div>
