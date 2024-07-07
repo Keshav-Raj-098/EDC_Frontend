@@ -1,0 +1,17 @@
+.navbtn>span{
+    
+    color:#9ea1a4;
+    font-size:15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+
+
+}
+.navbtn>span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.navbar{
+ position: fixed; top:0px
+}
